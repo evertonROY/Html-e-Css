@@ -58,15 +58,16 @@ main .principal{
   text-align: justify;
   background-color: var(--cor4);
   padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.26);
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.26);
 }
 
 main .lateral{
 width: 250px;
-background-color: var(--cor3);
+background-color: var(--cor2);
 text-align: center;
-
+border-radius: 10px 0px 0px 10px;
+box-shadow: -2px 2px 10px 0px rgba(0, 0, 0, 0.26);
 }
 
 
