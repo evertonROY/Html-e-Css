@@ -50,6 +50,8 @@ nav a:hover{
 }
 main{
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 main .principal{
