@@ -49,7 +49,6 @@ nav a:hover{
   
 }
 main{
-  margin: auto;
   display: flex;
   justify-content: center;
 }
@@ -57,7 +56,6 @@ main{
 main .principal{
   width: 700px;
   text-align: justify;
-  margin: auto;
   background-color: var(--cor4);
   padding: 40px;
   border-radius: 10px;
