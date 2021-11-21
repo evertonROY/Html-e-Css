@@ -23,9 +23,21 @@ body{
 header{
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
   color: white;
-  padding: 50px;
   text-align: center;
   font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.pensante img{
+  width: 200px;
+  
+}
+
+#p1{
+  transform: rotateY(180deg);
 }
 
 nav{
