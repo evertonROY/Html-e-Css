@@ -33,10 +33,15 @@ header h1{
   position: relative;
   bottom: -11 0px;
 }
+
+.pensante{
+  justify-content: flex-start;
+  position: absolute;
+  width: 100%;
+}
 .pensante img{
   width: 200px;
-  position: relative;
-  
+
 }
 
 #p1{
