@@ -6,10 +6,13 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom, blue, white);
+  background-image: linear-gradient(to bottom, rgb(29, 120, 223), white)
+  height: 43.1vw;
 }
 
 main{
-  background-image: linear-gradient(to bottom, blue, white);
-  width: 100vw;
+  margin: center;
+  width: 800px;
+  background-color: white;
 }
+
