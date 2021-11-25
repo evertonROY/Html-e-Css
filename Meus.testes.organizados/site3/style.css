@@ -20,27 +20,35 @@ body{
   font-family: 'Kanit', sans-serif;
 }
 
+.cab{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header{
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
   color: white;
   text-align: center;
   font-size: 25px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-content: flex-end;
+  padding: 0px 10px;
+  margin-bottom: 20px;
 }
 
 header h1{
-  position: relative;
-  bottom: -11 0px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.pensante{
-  justify-content: flex-start;
-  position: absolute;
-  width: 100%;
-}
-.pensante img{
+header img{
   width: 200px;
+  position: relative;
+  
 }
 
 #p1{
@@ -48,7 +56,6 @@ header h1{
 }
 
 nav{
-  background-color: var(--cor1);
   color: white;
   text-align: center;
   margin-bottom: 30px;
