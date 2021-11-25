@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
-*{
-  margin: 0;
-  padding: 0;
-}
+/* background-image: linear-gradient(to bottom, rgb(29, 120, 223), white)*/
 
 body{
   background-image: linear-gradient(to bottom, rgb(29, 120, 223), white)
-  height: 43.1vw;
+ height: 100vh;
+ margin: 0;
 }
 
 main{
-  margin: center;
-  width: 800px;
-  background-color: white;
+  display: flex;;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+  background-color: rgb(197, 197, 197);
+  padding: 40px;
 }
 
