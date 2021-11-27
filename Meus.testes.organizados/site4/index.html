@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -18,9 +21,22 @@
   </header>
 
   <main>
-    <input type="email" name="E-mail" id="" placeholder="E-mail">
-    <input type="text" placeholder="Nome completo">
-    <input type="number" placeholder="Ex:(99)90000-0000">
+
+    <div class="list">
+      <input class="input_list" type="email">
+      <label class="list_label">E-mail</label>
+    </div>
+
+    <div class="list">
+      <input class="input_list" type="text">
+      <label class="list_label">Nome completo</label>
+    </div>
+
+    <div class="list">
+      <input  class="input_list" type="number" placeholder="Ex:(99)90000-0000">
+      <label class="list_label">Telefone</label>
+
+    </div>
     <button>Próximo passo</button>
   </main>
 
@@ -32,4 +48,5 @@
     <input type="number" placeholder="Ex:(99)90000-0000">
     <button>Próximo passo</button>-->
 </body>
+
 </html>
