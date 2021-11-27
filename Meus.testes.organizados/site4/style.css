@@ -32,12 +32,20 @@ main{
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
 }
 
-main input{
-  height: 70px;
-  margin: 15px;
-  border-radius: 5px;
-  border-color: rgba(0, 0, 0, 0.178);
+.list {
+  position: relative;
+  
 }
+
+.list_input{
+  background-color: transparent;
+}
+
+.list_label{
+  position: absolute;
+}
+
+
 
 button{
   width: 200px;
