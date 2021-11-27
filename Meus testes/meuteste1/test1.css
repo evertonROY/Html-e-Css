@@ -1,0 +1,19 @@
+body{
+  background-image: linear-gradient(to left, rgba(253, 200, 200, 0.582), white);
+  font:normal 15px Arial;
+     
+}
+main{
+  margin: auto;
+  padding: 80px;
+  border-radius: 10px;
+  background-color: rgba(127, 255, 212, 0.479);
+  width: 600px;
+  box-shadow: 2px 2px 20px rgb(107, 105, 105);
+  
+  }
+  h1{
+    border:solid 2px rgba(127, 255, 212, 0.65);
+     margin: auto;
+     text-align: center;     
+  }
