@@ -5,11 +5,14 @@ body{
   margin: 0;
   display: grid;
   grid-template-areas: "topo topo" "meio outro" "baixo baixo";
+  /*grid-template-areas: áspas = quantidade de linhas conteudo dentro das áspas= quantidade de colunas*/
   grid-template-rows: 200px 1fr 100px;
+  /*grid-template-areas: áspas = quantidade de linhas conteudo dentro das áspas= quantidade de colunas*/
 }
 
 header{
   grid-area: topo;
+  /*grid-area: dar nome para as variáveis das linhas e colunas*/
   background-color: green;
 }
 
