@@ -19,6 +19,11 @@ header{
   grid-area: topo;
   /*grid-area: dar nome para as variáveis das linhas e colunas*/
   background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
 }
 
 main{
