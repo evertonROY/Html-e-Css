@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+body{
+  margin: 0;
+  display: grid;
+}
+
+header{
+  background-color: green;
+}
+
+main{
+  background-color: red;
+}
+
+aside{
+  background-color: blue;
+}
+
+footer{
+  background-color: gray;
+}
