@@ -4,10 +4,15 @@ body{
   height: 100vh;
   margin: 0;
   display: grid;
+
   grid-template-areas: "topo topo" "meio outro" "baixo baixo";
   /*grid-template-areas: áspas = quantidade de linhas conteudo dentro das áspas= quantidade de colunas*/
-  grid-template-rows: 200px 1fr 100px;
-  /*grid-template-areas: áspas = quantidade de linhas conteudo dentro das áspas= quantidade de colunas*/
+
+  grid-template-rows: 150px 1fr 100px;
+  /*grid-template-rows: tamanha de cada linha, (fr = fração da tela ou seja ela se regula e as outras são fixas*/
+
+  grid-template-columns: 1fr 300px;
+   /*grid-template-rows: tamanha de cada Coluna, (fr = fração da tela ou seja ela se regula e as outras são fixas*/
 }
 
 header{
