@@ -1,22 +1,29 @@
 @charset "UTF-8";
 
 body{
+  height: 100vh;
   margin: 0;
   display: grid;
+  grid-template-areas: "topo topo" "meio outro" "baixo baixo";
+  grid-template-rows: 200px 1fr 100px;
 }
 
 header{
+  grid-area: topo;
   background-color: green;
 }
 
 main{
+  grid-area: meio;
   background-color: red;
 }
 
 aside{
+  grid-area: outro;
   background-color: blue;
 }
 
 footer{
+  grid-area: baixo;
   background-color: gray;
 }
