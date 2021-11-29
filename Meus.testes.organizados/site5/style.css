@@ -28,11 +28,12 @@ main{
   grid-area:a;
 display: flex;
 justify-content: center;
-margin-top: 20px;
+margin-top: 15px;
 }
 
 img{
   width: 334px;
+  border-radius:10px;
 }
 
 footer{
