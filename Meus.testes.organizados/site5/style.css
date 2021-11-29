@@ -36,10 +36,11 @@ h2{
 }
 
 p{
+  grid-area: c;
   background-color: aqua
 }
 .cubo{
-  grid-area:;
+  grid-area:a;
 display: flex;
 justify-content: center;
 margin-top: 20px;
