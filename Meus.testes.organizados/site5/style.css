@@ -6,19 +6,31 @@ body{
   margin: 0;
   background-color: rgb(13, 25, 43);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 main{
-  width: 400px;
+  width: 370px;
+  padding: 15px;
   height: 600px;
   background-color: rgb(20, 37, 61);
-  border-radius: 15px;
+  border-radius: 12px;
   align-items: center;
   color: white;
 }
+.cubo{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
 
 img{
-  width: 300px;
+  width: 334px;
+}
+
+footer{
+  color: white;
+  
 }
