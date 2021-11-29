@@ -29,6 +29,7 @@ header{
 main{
   grid-area: meio;
   background-color: red;
+  
 }
 
 aside{
