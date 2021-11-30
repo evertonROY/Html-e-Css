@@ -1,6 +1,12 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family = Outfit: wght @ 300; 400; 600 & display = swap');
 
+:root{
+  --cor1:hsl(217, 54%, 11%);
+  --cor2: hsl(216, 50%, 16%);
+  --cor2:;
+  --cor2:;
+}
 
 body{
   height:100vh ;
@@ -14,9 +20,10 @@ body{
 }
 
 main{
-  width: 370px;
-  padding: 10px;
-  height: 600px;
+  min-width: 250px;
+  max-width: 20vw;
+  min-height: 72vh;
+  padding: 3vh;
   background-color: rgb(20, 37, 61);
   border-radius: 12px;
   align-items: center;
@@ -25,14 +32,14 @@ main{
 }
 
 .cubo{
-  grid-area:a;
+grid-area:a;
 display: flex;
 justify-content: center;
-margin-top: 15px;
+
 }
 
 img{
-  width: 334px;
+  width: 42vh;
   border-radius:10px;
 }
 
