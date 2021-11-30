@@ -9,7 +9,6 @@
   --cor4:hsl(0, 0%, 100%);
   --cor5:hsl(215, 51%, 70%);
   --cor6:hsl(178, 100%, 50%);
-  --cor7:;
 }
 
 body{
@@ -57,9 +56,18 @@ p{
   align-items: center;
 }
 
+.drr{
+  margin: 0;
+  color: var(--cor5);
+}
+
+.eth{
+  color: var(--cor6);
+}
 .dr{
   text-align: right;
   margin: 0;
+  color: var(--cor5);
 }
 
 footer{
