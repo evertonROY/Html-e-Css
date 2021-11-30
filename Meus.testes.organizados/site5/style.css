@@ -1,11 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family = Outfit: wght @ 300; 400; 600 & display = swap');
 
+
 :root{
   --cor1:hsl(217, 54%, 11%);
-  --cor2: hsl(216, 50%, 16%);
-  --cor2:;
-  --cor2:;
+  --cor2:hsl(216, 50%, 16%);
+  --cor3:hsl(215, 32%, 27%);
+  --cor4:hsl(0, 0%, 100%);
+  --cor5:hsl(215, 51%, 70%);
+  --cor6:hsl(178, 100%, 50%);
+  --cor7:;
 }
 
 body{
@@ -32,10 +36,10 @@ main{
 }
 
 .cubo{
-grid-area:a;
 display: flex;
 justify-content: center;
-
+width: 42vh;
+border-radius:10px;
 }
 
 img{
@@ -43,7 +47,19 @@ img{
   border-radius:10px;
 }
 
+p{
+  margin: 0;
+  font-family:'Outfit' ;
+  font-size: 14px;
+}
+
+.dr{
+  text-align: right;
+  margin: 0;
+}
+
 footer{
+  grid-area: bottom;
   color: white;
   font-size: 10px;
 }
