@@ -24,15 +24,12 @@ body{
 }
 
 main{
-  display: flex;
-flex-direction: column;
   min-width: 250px;
   max-width: 20vw;
   min-height: 72vh;
   padding: 3vh;
   background-color: rgb(20, 37, 61);
   border-radius: 12px;
-  align-items: center;
   color: hsl(0, 0%, 100%);
   box-shadow: 0px 0px 10px 0px rgba(9, 16, 26, 0.363);
 }
@@ -40,20 +37,24 @@ flex-direction: column;
 .cubo{
 display: flex;
 justify-content: center;
-width: 42vh;
 border-radius:10px;
 }
 
 img{
   width: 42vh;
   border-radius:10px;
-  
 }
 
 p{
-  margin: 0;
+  margin: 10px;
   font-family:'Outfit' ;
   font-size: 14px;
+}
+
+.inf{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dr{
