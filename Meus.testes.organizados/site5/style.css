@@ -24,6 +24,8 @@ body{
 }
 
 main{
+  display: flex;
+flex-direction: column;
   min-width: 250px;
   max-width: 20vw;
   min-height: 72vh;
@@ -45,6 +47,7 @@ border-radius:10px;
 img{
   width: 42vh;
   border-radius:10px;
+  
 }
 
 p{
