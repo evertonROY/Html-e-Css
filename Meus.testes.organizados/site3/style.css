@@ -79,6 +79,14 @@ nav a:hover{
   border-radius: 5px;
   
 }
+
+#pesqu input{
+ width: 300px;
+ text-align: center;
+ border-radius: 20px;
+ height: 20px;
+}
+
 main{
   display: flex;
   justify-content: center;
@@ -101,6 +109,10 @@ border-radius: 10px 0px 0px 10px;
 box-shadow: -2px 2px 10px 0px rgba(0, 0, 0, 0.26);
 }
 
+.lateral img:hover{
+  transform: scale(1.1); 
+}
+
 .lateral .paragrafos{
   text-align: left;
 font-size: 15px;
@@ -113,6 +125,7 @@ main img{
   border-radius: 40px;
   box-shadow: 0px -1px 5px 2px black;
   margin-top: 20px;
+  transition: 0.5s; 
 }
 
 main h2{
