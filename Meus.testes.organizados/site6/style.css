@@ -1,6 +1,12 @@
 *{
+    height: 100%;
     margin: 0;
     padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -16,7 +22,7 @@ main{
 }
 
 footer{
+    
     background-color: #3A0069;
-    width: 100vw;
-    height: 100px;
+    padding: 20px;
 }
