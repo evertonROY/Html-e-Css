@@ -1,7 +1,10 @@
 *{
-    height: 100%;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
 }
 
 body{
@@ -10,19 +13,26 @@ body{
 }
 
 header{
-    background-color: #3A0069;
-    width: 100vw;
+    background-color: #1e0037;
     height: 200px;
 }
 
+nav{
+    background-color: #170527 ;
+}
+
 main{
-    background-color: #A247EC ;
-    width: 100vw;
-    height: 20px;
+    flex: 1 0 auto;
+    background-color: #a247ec4d ;
 }
 
 footer{
-    
-    background-color: #3A0069;
-    padding: 20px;
+    background-color: #120020;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
 }
