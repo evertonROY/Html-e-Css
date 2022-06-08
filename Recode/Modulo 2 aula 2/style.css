@@ -15,6 +15,7 @@ table{
 
 .cabeçalho div{
     display: flex;
+    justify-content: space-between;
 }
 
 .cabeçalho #opa{
@@ -28,7 +29,6 @@ table{
     width: 100%;
     height: 100%;
 }
-
 
 .esq{
     width: 15%;
