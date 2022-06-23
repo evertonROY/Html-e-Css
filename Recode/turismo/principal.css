@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    
+ }
+.completo{
+    display: grid;
+    grid-template-rows: 70fr 20fr 5fr 5fr;
+    grid-template-areas: "h h h"
+                         "n n n"
+                         "s s s"
+                         "f f f";
+   background-color: blue;
+}
+
+header{
+    background-color: rgb(66, 249, 234);
+   grid-area: h;
+}
+
+nav{
+    background-color: rgb(49, 177, 75);
+    grid-area: n;
+}
+
+.principal{
+    background-color: rgb(162, 32, 32);
+    grid-area: s;
+}
+
+footer{
+    background-color: black;
+    grid-area: f;
+}
